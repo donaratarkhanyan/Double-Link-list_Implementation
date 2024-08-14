@@ -27,11 +27,6 @@ public:
     int back();
     void splice(size_t index, d_list& other);
 
-
-    //friend bool operator== (const d_list&, const d_list&);
-    //d_list& operator+ (d_list&, d_list&);
-    //int operator[] (size_t ind);
-
 private:
     struct Node {
         int data;
