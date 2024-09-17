@@ -14,7 +14,8 @@ Each node in a doubly linked list contains three parts:
 
 The first node in the list is the `head`, and the last node is the `tail`. Both the `head` and `tail` pointers can be used to efficiently access the beginning and end of the list.
 
-<img src="../../assets/images/doubly-linked-list.png" alt="" width="500" />
+![image](https://github.com/user-attachments/assets/73772e5e-4000-4ef7-8e41-8ef001cf6d38)
+
 
 This image depicts a doubly linked list with four nodes. Each node has pointers to the previous and next nodes. The `head` node's `prev` pointer points to `null` because there is no previous node. Similarly, the `tail` node's `next` pointer points to `null`.
 
